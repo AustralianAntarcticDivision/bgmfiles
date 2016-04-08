@@ -27,4 +27,4 @@ See <https://github.com/mdsumner/rbgm> for an R package to read these files and 
 Contribute!
 -----------
 
-If you'd like to contribute example BGM files, please see <https://github.com/AustralianAntarcticDivision/box-geometry-models> or just get in touch directly.
+If you would like to contribute example BGM files, please see <https://github.com/AustralianAntarcticDivision/box-geometry-models> or just get in touch directly.
