@@ -5,8 +5,19 @@
 \alias{bgmfiles}
 \alias{bgmfiles-package}
 \title{bgmfiles.}
+\usage{
+bgmfiles(pattern = NULL)
+}
+\arguments{
+\item{pattern}{optional pattern string to filter files returned, see \code{\link{list.files}} for details}
+}
+\value{
+character vector of file paths
+}
 \description{
 Raw data files are maintained here: https://github.com/AustralianAntarcticDivision/box-geometry-models.git
+
+Return the full paths to all files in the extdata/bgm/ folder of this package.
 }
 \details{
 This package contains a simple workflow to update from that source repo and install the raw files into extdata/ of the installed package.

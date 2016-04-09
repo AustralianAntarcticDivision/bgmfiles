@@ -6,3 +6,15 @@
 #' @name bgmfiles
 #' @docType package
 NULL
+
+#' BGM files
+#'
+#' Return the full paths to all files in the extdata/bgm/ folder of this package. 
+#'
+#' @param pattern optional pattern string to filter files returned, see \code{\link{list.files}} for details
+#'
+#' @return character vector of file paths
+#' @export
+bgmfiles <- function(pattern = NULL) {
+  list.files(system.file("extdata/bgm", package = "bgmfiles"), recursive = TRUE, full.names = TRUE, pattern = pattern)
+}

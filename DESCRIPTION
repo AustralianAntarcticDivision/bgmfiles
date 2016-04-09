@@ -1,6 +1,6 @@
 Package: bgmfiles
 Title: Example BGM Files for Atlantis
-Version: 0.0-1
+Version: 0.0.2
 Authors@R: c(
     person("Michael D.", "Sumner", , "mdsumner@gmail.com", c("aut", "cre"))
     )
@@ -8,3 +8,4 @@ Maintainer: Michael D. Sumner <mdsumner@gmail.com>
 Description: A collection of box-geometry model (BGM) files for Atlantis.
 License: CC0
 RoxygenNote: 5.0.1
+Suggests: testthat
