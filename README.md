@@ -4,6 +4,8 @@ BGM files for Atlantis
 
 A raw-data package with example .bgm files (box geometry model) for Atlantis.
 
+**PLEASE NOTE:** this is not an official source of BGM for use in Atlantis.
+
 See <https://github.com/mdsumner/rbgm> for an R package to read these files and work with the box geometry.
 
 Installation
