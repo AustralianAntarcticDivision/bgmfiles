@@ -1,4 +1,4 @@
-# dev
+# bgmfiles 0.0.3
 
 * new file CalCurrentV3_utm.bgm from Isaac Kaplan
 * new file Guam_utm1.bgm from Mariska Weijerman
