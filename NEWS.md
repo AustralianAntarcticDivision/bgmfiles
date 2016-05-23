@@ -1,4 +1,9 @@
+# dev
+
+* new files JFRE_ll.bgm and JFRE_xy.bgm of the Juan Fernández Ridge Ecosystem (JFRE) from Javier Porobic
+
 # bgmfiles 0.0.3
+
 
 * new file CalCurrentV3_utm.bgm from Isaac Kaplan
 * new file Guam_utm1.bgm from Mariska Weijerman

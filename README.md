@@ -29,12 +29,17 @@ List the available raw files available in this package.
 library(bgmfiles)
 files <- bgmfiles()
 print(basename(files))
-#> [1] "AEEC_poly_projETRS89_LAEA_snapped0p002.bgm"
-#> [2] "ams71.bgm"                                 
-#> [3] "antarctica_28.bgm"                         
-#> [4] "antarctica_99.bgm"                         
-#> [5] "GOM_BGM.bgm"                               
-#> [6] "VMPA_setas.bgm"
+#>  [1] "AEEC_poly_projETRS89_LAEA_snapped0p002.bgm"
+#>  [2] "ams71.bgm"                                 
+#>  [3] "antarctica_28.bgm"                         
+#>  [4] "antarctica_99.bgm"                         
+#>  [5] "CalCurrentV3_utm.bgm"                      
+#>  [6] "GOM_BGM.bgm"                               
+#>  [7] "Guam_utm1.bgm"                             
+#>  [8] "JFRE_ll.bgm"                               
+#>  [9] "JFRE_xy.bgm"                               
+#> [10] "Nordic02.bgm"                              
+#> [11] "VMPA_setas.bgm"
 ```
 
 If we need to we can also filter based on a specific string with the `pattern` argument:
@@ -51,12 +56,17 @@ This package is really just a data package to install the example files, the fun
 files <- list.files(system.file("extdata", package = "bgmfiles"), recursive = TRUE, full.names = TRUE)
 
 print(basename(files))
-#> [1] "AEEC_poly_projETRS89_LAEA_snapped0p002.bgm"
-#> [2] "ams71.bgm"                                 
-#> [3] "antarctica_28.bgm"                         
-#> [4] "antarctica_99.bgm"                         
-#> [5] "GOM_BGM.bgm"                               
-#> [6] "VMPA_setas.bgm"
+#>  [1] "AEEC_poly_projETRS89_LAEA_snapped0p002.bgm"
+#>  [2] "ams71.bgm"                                 
+#>  [3] "antarctica_28.bgm"                         
+#>  [4] "antarctica_99.bgm"                         
+#>  [5] "CalCurrentV3_utm.bgm"                      
+#>  [6] "GOM_BGM.bgm"                               
+#>  [7] "Guam_utm1.bgm"                             
+#>  [8] "JFRE_ll.bgm"                               
+#>  [9] "JFRE_xy.bgm"                               
+#> [10] "Nordic02.bgm"                              
+#> [11] "VMPA_setas.bgm"
 ```
 
 We don't really need to load or attach the package to find these files, but using the installation mechanism is very convenient for R use.

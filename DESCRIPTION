@@ -1,6 +1,6 @@
 Package: bgmfiles
 Title: Example BGM Files for Atlantis
-Version: 0.0.3
+Version: 0.0.3.9001
 Authors@R: c(
     person("Michael D.", "Sumner", , "mdsumner@gmail.com", c("aut", "cre"))
     )

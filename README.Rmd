@@ -49,6 +49,7 @@ If we need to we can also filter based on a specific string with the `pattern` a
 ```{r}
 afiles <- bgmfiles(pattern = "^antarc")
 print(basename(afiles))
+
 ```
 This package is really just a data package to install the example files, the function `bgmfiles` is ridiculously simple this is all it does: 
 
