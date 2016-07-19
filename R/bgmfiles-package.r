@@ -15,6 +15,18 @@ NULL
 #'
 #' @return character vector of file paths
 #' @export
+#' @examples
+#' ## obtain all example files installed
+#' bfiles <- bgmfiles()
+#' print(basename(bfiles))
+#' 
+#' ## filter based on an input pattern
+#' afiles <- bgmfiles(pattern = "^antarc")
+#' print(basename(afiles))
+#' 
+#' ## read all the text from all files and table raw characters
+#' ## (for no reason)
+#' lapply(bfiles, function(x) table(unlist(strsplit(paste(readLines(x), collapse = ""), ""))))
 bgmfiles <- function(pattern = NULL) {
   list.files(system.file("extdata/bgm", package = "bgmfiles"), recursive = TRUE, full.names = TRUE, pattern = pattern)
 }

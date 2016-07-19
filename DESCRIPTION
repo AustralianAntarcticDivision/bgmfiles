@@ -1,11 +1,13 @@
 Package: bgmfiles
-Title: Example BGM Files for Atlantis
-Version: 0.0.4
+Title: Example BGM Files for the Atlantis Ecosystem Model
+Version: 0.0.5
 Authors@R: c(
     person("Michael D.", "Sumner", , "mdsumner@gmail.com", c("aut", "cre"))
     )
-Description: A collection of box-geometry model (BGM) files for Atlantis.
+Description: A collection of box-geometry model (BGM) files for the Atlantis ecosystem model. Atlantis is a deterministic, biogeochemical, whole-of-ecosystem model.
 License: CC0
 RoxygenNote: 5.0.1
 Suggests: testthat,
     covr
+BugReports: https://github.com/ AustralianAntarcticDivision/bgmfiles/issues/
+URL: https://github.com/AustralianAntarcticDivision/bgmfiles/, http://atlantis.cmar.csiro.au/

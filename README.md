@@ -4,11 +4,15 @@
 BGM files for Atlantis
 ======================
 
-A raw-data package with example .bgm files (box geometry model) for Atlantis.
+A raw-data package with example .bgm files (box geometry model) for Atlantis ecosystem model.
+
+Atlantis is a deterministic, biogeochemical, whole-of-ecosystem model. <http://atlantis.cmar.csiro.au/>.
 
 **PLEASE NOTE:** this is not an official source of BGM for use in Atlantis.
 
 See <https://github.com/mdsumner/rbgm> for an R package to read these files and work with the box geometry.
+
+See <https://github.com/AustralianAntarcticDivision/box-geometry-models> for the project that collects the files used in this package.
 
 Installation
 ------------
@@ -43,7 +47,7 @@ print(basename(files))
 #> [12] "VMPA_setas.bgm"
 ```
 
-If we need to we can also filter based on a specific string with the `pattern` argument:
+If needed filter based on a specific string with the `pattern` argument:
 
 ``` r
 afiles <- bgmfiles(pattern = "^antarc")
@@ -51,10 +55,10 @@ print(basename(afiles))
 #> [1] "antarctica_28.bgm" "antarctica_99.bgm"
 ```
 
-This package is really just a data package to install the example files, the function `bgmfiles` is ridiculously simple this is all it does:
+This package exists as a data package to install example files, the function `bgmfiles` is ridiculously simple and simply runs file finding functions:
 
 ``` r
-files <- list.files(system.file("extdata", package = "bgmfiles"), recursive = TRUE, full.names = TRUE)
+files <- list.files(system.file("extdata", package = "bgmfiles"), pattern = NULL, full.names = TRUE, recursive = TRUE)
 
 print(basename(files))
 #>  [1] "AEEC_poly_projETRS89_LAEA_snapped0p002.bgm"
@@ -71,7 +75,7 @@ print(basename(files))
 #> [12] "VMPA_setas.bgm"
 ```
 
-We don't really need to load or attach the package to find these files, but using the installation mechanism is very convenient for R use.
+We don't need to load or attach the package to find these files, but using the installation mechanism is very convenient for R use.
 
 Contribute!
 -----------

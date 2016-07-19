@@ -1,3 +1,7 @@
+# bgmfiles 0.0.5
+
+* expanded description and added examples, thanks to CRAN
+
 # bgmfiles 0.0.4
 
 * new file NGOM.bgm from Cameron Ainsworth
