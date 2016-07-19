@@ -7,4 +7,5 @@ Authors@R: c(
 Description: A collection of box-geometry model (BGM) files for Atlantis.
 License: CC0
 RoxygenNote: 5.0.1
-Suggests: testthat
+Suggests: testthat,
+    covr
