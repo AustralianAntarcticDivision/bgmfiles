@@ -59,11 +59,8 @@ print(basename(afiles))
 ```
 This package exists as a data package to install example files, the function `bgmfiles` is ridiculously simple and simply runs file finding functions: 
 
-```{r}
-files <- list.files(system.file("extdata", package = "bgmfiles"), pattern = NULL, full.names = TRUE, recursive = TRUE)
-
-print(basename(files))
-
+```{r, eval=FALSE}
+list.files(system.file("extdata", package = "bgmfiles"), pattern = NULL, full.names = TRUE, recursive = TRUE)
 ```
 
 We don't need to load or attach the package to find these files, but using the installation mechanism is very convenient for R use.  

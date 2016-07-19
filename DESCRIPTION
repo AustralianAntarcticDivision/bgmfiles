@@ -9,5 +9,5 @@ License: CC0
 RoxygenNote: 5.0.1
 Suggests: testthat,
     covr
-BugReports: https://github.com/ AustralianAntarcticDivision/bgmfiles/issues/
+BugReports: https://github.com/AustralianAntarcticDivision/bgmfiles/issues/
 URL: https://github.com/AustralianAntarcticDivision/bgmfiles/, http://atlantis.cmar.csiro.au/
