@@ -1,4 +1,6 @@
-# dev
+# bgmfiles 0.0.4
+
+* new file NGOM.bgm from Cameron Ainsworth
 
 * new files JFRE_ll.bgm and JFRE_xy.bgm of the Juan Fernández Ridge Ecosystem (JFRE) from Javier Porobic
 

@@ -38,8 +38,9 @@ print(basename(files))
 #>  [7] "Guam_utm1.bgm"                             
 #>  [8] "JFRE_ll.bgm"                               
 #>  [9] "JFRE_xy.bgm"                               
-#> [10] "Nordic02.bgm"                              
-#> [11] "VMPA_setas.bgm"
+#> [10] "NGOM.bgm"                                  
+#> [11] "Nordic02.bgm"                              
+#> [12] "VMPA_setas.bgm"
 ```
 
 If we need to we can also filter based on a specific string with the `pattern` argument:
@@ -65,8 +66,9 @@ print(basename(files))
 #>  [7] "Guam_utm1.bgm"                             
 #>  [8] "JFRE_ll.bgm"                               
 #>  [9] "JFRE_xy.bgm"                               
-#> [10] "Nordic02.bgm"                              
-#> [11] "VMPA_setas.bgm"
+#> [10] "NGOM.bgm"                                  
+#> [11] "Nordic02.bgm"                              
+#> [12] "VMPA_setas.bgm"
 ```
 
 We don't really need to load or attach the package to find these files, but using the installation mechanism is very convenient for R use.

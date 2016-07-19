@@ -15,7 +15,7 @@ bgmfiles(pattern = NULL)
 character vector of file paths
 }
 \description{
-Raw data files are maintained here: https://github.com/AustralianAntarcticDivision/box-geometry-models.git
+Raw data files are maintained here: \url{https://github.com/AustralianAntarcticDivision/box-geometry-models.git}
 
 Return the full paths to all files in the extdata/bgm/ folder of this package.
 }
