@@ -33,7 +33,13 @@ See https://github.com/AustralianAntarcticDivision/box-geometry-models for the p
 
 ## Installation
 
-Install from Github using `devtools`. 
+Install from CRAN: 
+
+```{r,eval=FALSE}
+install.packages("bgmfiles")
+```
+
+Install the develop version from Github using `devtools`. 
 
 ```{r,eval=FALSE}
 # install.packages("devtools")
@@ -57,7 +63,7 @@ afiles <- bgmfiles(pattern = "^antarc")
 print(basename(afiles))
 
 ```
-This package exists as a data package to install example files, the function `bgmfiles` is ridiculously simple and simply runs file finding functions: 
+This package exists as a data package to install example files, there is just one function `bgmfiles` that runs file finding functions: 
 
 ```{r, eval=FALSE}
 list.files(system.file("extdata", package = "bgmfiles"), pattern = NULL, full.names = TRUE, recursive = TRUE)
@@ -66,9 +72,16 @@ list.files(system.file("extdata", package = "bgmfiles"), pattern = NULL, full.na
 We don't need to load or attach the package to find these files, but using the installation mechanism is very convenient for R use.  
 
 
-## Contribute!
+# Contribute!
 
-If you would like to contribute example BGM files, please see https://github.com/AustralianAntarcticDivision/box-geometry-models or just get in touch directly. 
+If you would like to contribute example BGM files or to the package:  
+
+* contribute to the repository of example files https://github.com/AustralianAntarcticDivision/box-geometry-models  
+* submit a suggestion or issue for this package https://github.com/AustralianAntarcticDivision/bgmfiles/issues
+
+or just get in touch directly via email. 
+
+
 
 
 

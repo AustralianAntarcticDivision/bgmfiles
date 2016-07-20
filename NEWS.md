@@ -1,3 +1,8 @@
+# bgmfiles dev
+
+* updated install notes
+
+
 # bgmfiles 0.0.5
 
 * expanded description and added examples, thanks to CRAN
