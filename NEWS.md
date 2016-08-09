@@ -1,4 +1,6 @@
-# bgmfiles dev
+# bgmfiles 0.0.6
+
+* added added Final_CAM_Boxes_8.bgm from Thomas Ihde
 
 * updated install notes
 
