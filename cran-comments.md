@@ -11,6 +11,11 @@ The spellings of 'BGM', 'biogeochemical' are intended.
 
 The Atlantis CSIRO URL is correct. 
 
+## Reverse dependencies
+
+I ran R CMD check on the lone reverse dependency 'rbgm', 
+with no ERRORS,  WARNINGS or NOTES. 
+
 Thank you, 
 
 Michael Sumner
