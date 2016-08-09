@@ -1,4 +1,4 @@
-[![Linux Build Status](https://travis-ci.org/AustralianAntarcticDivision/bgmfiles.svg?branch=master)](https://travis-ci.org/AustralianAntarcticDivision/bgmfiles) [![Windows Build Status](https://ci.appveyor.com/api/projects/status/github/AustralianAntarcticDivision/bgmfiles?branch=master&svg=true)](https://ci.appveyor.com/project/AustralianAntarcticDivision/bgmfiles) [![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/bgmfiles)](https://cran.r-project.org/package=bgmfiles) [![Coverage Status](https://img.shields.io/codecov/c/github/AustralianAntarcticDivision/bgmfiles/master.svg)](https://codecov.io/github/AustralianAntarcticDivision/bgmfiles?branch=master)
+[![Linux Build Status](https://travis-ci.org/AustralianAntarcticDivision/bgmfiles.svg?branch=master)](https://travis-ci.org/AustralianAntarcticDivision/bgmfiles) [![Windows Build Status](https://ci.appveyor.com/api/projects/status/github/mdsumner/bgmfiles?branch=master&svg=true)](https://ci.appveyor.com/project/mdsumner/bgmfiles) [![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/bgmfiles)](https://cran.r-project.org/package=bgmfiles) [![Coverage Status](https://img.shields.io/codecov/c/github/AustralianAntarcticDivision/bgmfiles/master.svg)](https://codecov.io/github/AustralianAntarcticDivision/bgmfiles?branch=master)
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 BGM files for Atlantis
@@ -17,7 +17,13 @@ See <https://github.com/AustralianAntarcticDivision/box-geometry-models> for the
 Installation
 ------------
 
-Install from Github using `devtools`.
+Install from CRAN:
+
+``` r
+install.packages("bgmfiles")
+```
+
+Install the develop version from Github using `devtools`.
 
 ``` r
 # install.packages("devtools")
@@ -38,13 +44,14 @@ print(basename(files))
 #>  [3] "antarctica_28.bgm"                         
 #>  [4] "antarctica_99.bgm"                         
 #>  [5] "CalCurrentV3_utm.bgm"                      
-#>  [6] "GOM_BGM.bgm"                               
-#>  [7] "Guam_utm1.bgm"                             
-#>  [8] "JFRE_ll.bgm"                               
-#>  [9] "JFRE_xy.bgm"                               
-#> [10] "NGOM.bgm"                                  
-#> [11] "Nordic02.bgm"                              
-#> [12] "VMPA_setas.bgm"
+#>  [6] "Final_CAM_Boxes_8.bgm"                     
+#>  [7] "GOM_BGM.bgm"                               
+#>  [8] "Guam_utm1.bgm"                             
+#>  [9] "JFRE_ll.bgm"                               
+#> [10] "JFRE_xy.bgm"                               
+#> [11] "NGOM.bgm"                                  
+#> [12] "Nordic02.bgm"                              
+#> [13] "VMPA_setas.bgm"
 ```
 
 If needed filter based on a specific string with the `pattern` argument:
@@ -55,7 +62,7 @@ print(basename(afiles))
 #> [1] "antarctica_28.bgm" "antarctica_99.bgm"
 ```
 
-This package exists as a data package to install example files, the function `bgmfiles` is ridiculously simple and simply runs file finding functions:
+This package exists as a data package to install example files, there is just one function `bgmfiles` that runs file finding functions:
 
 ``` r
 list.files(system.file("extdata", package = "bgmfiles"), pattern = NULL, full.names = TRUE, recursive = TRUE)
@@ -64,6 +71,11 @@ list.files(system.file("extdata", package = "bgmfiles"), pattern = NULL, full.na
 We don't need to load or attach the package to find these files, but using the installation mechanism is very convenient for R use.
 
 Contribute!
------------
+===========
 
-If you would like to contribute example BGM files, please see <https://github.com/AustralianAntarcticDivision/box-geometry-models> or just get in touch directly.
+If you would like to contribute example BGM files or to the package:
+
+-   contribute to the repository of example files <https://github.com/AustralianAntarcticDivision/box-geometry-models>
+-   submit a suggestion or issue for this package <https://github.com/AustralianAntarcticDivision/bgmfiles/issues>
+
+or just get in touch directly via email.

@@ -5,7 +5,7 @@ output:
 ---
 
 [![Linux Build Status](https://travis-ci.org/AustralianAntarcticDivision/bgmfiles.svg?branch=master)](https://travis-ci.org/AustralianAntarcticDivision/bgmfiles)
-[![Windows Build Status](https://ci.appveyor.com/api/projects/status/github/AustralianAntarcticDivision/bgmfiles?branch=master&svg=true)](https://ci.appveyor.com/project/AustralianAntarcticDivision/bgmfiles)
+[![Windows Build Status](https://ci.appveyor.com/api/projects/status/github/mdsumner/bgmfiles?branch=master&svg=true)](https://ci.appveyor.com/project/mdsumner/bgmfiles)
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/bgmfiles)](https://cran.r-project.org/package=bgmfiles)
 [![Coverage Status](https://img.shields.io/codecov/c/github/AustralianAntarcticDivision/bgmfiles/master.svg)](https://codecov.io/github/AustralianAntarcticDivision/bgmfiles?branch=master)
 
