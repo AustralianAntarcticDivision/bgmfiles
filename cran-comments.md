@@ -7,6 +7,9 @@
 
 0 errors | 0 warnings | 1 note
 
+The spellings of 'BGM', 'biogeochemical' are intended. 
+
+The Atlantis CSIRO URL is correct. 
 
 Thank you, 
 
