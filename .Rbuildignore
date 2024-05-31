@@ -7,3 +7,5 @@
 ^appveyor\.yml$
 ^cran-comments\.md$
 ^revdep$
+^bgmfiles\.Rproj$
+^\.github$
