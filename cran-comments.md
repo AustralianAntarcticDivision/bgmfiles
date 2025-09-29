@@ -1,21 +1,5 @@
-## Test environments
-* local Windows install, R 3.3.1
-* ubuntu 12.04 (on travis-ci), R 3.3.1
-* win-builder (devel)
+0.1.0
 
-## R CMD check results
+Update to match testthat making old functions defunct. 
 
-0 errors | 0 warnings | 1 note
-
-The spellings of 'BGM', 'biogeochemical' are intended. 
-
-The Atlantis CSIRO URL is correct. 
-
-## Reverse dependencies
-
-I ran R CMD check on the lone reverse dependency 'rbgm', 
-with no ERRORS,  WARNINGS or NOTES. 
-
-Thank you, 
-
-Michael Sumner
+Thanks!

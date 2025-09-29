@@ -1,4 +1,6 @@
-# bgmfiles dev
+# bgmfiles 0.1.0
+
+* updated use of testthat, thanks Hadley Wickham. 
 
 * added static docs
 

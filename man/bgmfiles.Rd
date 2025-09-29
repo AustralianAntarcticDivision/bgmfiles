@@ -2,8 +2,8 @@
 % Please edit documentation in R/bgmfiles-package.r
 \docType{package}
 \name{bgmfiles}
-\alias{bgmfiles}
 \alias{bgmfiles-package}
+\alias{bgmfiles}
 \title{bgmfiles.}
 \usage{
 bgmfiles(pattern = NULL)
@@ -35,4 +35,20 @@ print(basename(afiles))
 ## (for no reason)
 lapply(bfiles, function(x) table(unlist(strsplit(paste(readLines(x), collapse = ""), ""))))
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/AustralianAntarcticDivision/bgmfiles/}
+  \item Report bugs at \url{https://github.com/AustralianAntarcticDivision/bgmfiles/issues/}
+}
 
+}
+\author{
+\strong{Maintainer}: Michael D. Sumner \email{mdsumner@gmail.com}
+
+Other contributors:
+\itemize{
+  \item Hadley Wickham [contributor]
+}
+
+}
