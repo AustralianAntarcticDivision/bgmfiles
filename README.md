@@ -86,3 +86,10 @@ If you would like to contribute example BGM files or to the package:
     <https://github.com/AustralianAntarcticDivision/bgmfiles/issues>
 
 or just get in touch directly via email.
+
+## Code of Conduct
+
+Please note that the bgmfiles project is released with a [Contributor
+Code of
+Conduct](https://australianantarcticdivision.github.io/bgmfiles/CODE_OF_CONDUCT.html).
+By contributing to this project, you agree to abide by its terms.

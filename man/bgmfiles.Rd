@@ -39,6 +39,7 @@ lapply(bfiles, function(x) table(unlist(strsplit(paste(readLines(x), collapse = 
 Useful links:
 \itemize{
   \item \url{https://github.com/AustralianAntarcticDivision/bgmfiles/}
+  \item \url{https://australianantarcticdivision.github.io/bgmfiles/}
   \item Report bugs at \url{https://github.com/AustralianAntarcticDivision/bgmfiles/issues/}
 }
 

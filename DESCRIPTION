@@ -1,6 +1,6 @@
 Package: bgmfiles
 Title: Example BGM Files for the Atlantis Ecosystem Model
-Version: 0.1.0.9001
+Version: 0.1.0.9002
 Authors@R: c(
     person("Michael D.", "Sumner", email = "mdsumner@gmail.com", role = c("aut", "cre")),
     person("Hadley", "Wickham", role = "ctb")

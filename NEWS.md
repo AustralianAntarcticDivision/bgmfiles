@@ -2,11 +2,13 @@
 
 * removed Travis and AppVeyor configuration; default branch is now `main`.
 
-* modernized tests to testthat 3rd edition.
+* modernized tests to testthat 3rd edition, with extra checks on the installed file set and BGM keywords.
 
 * added a pkgdown site with a Bootstrap 5 theme, deployed from GitHub Actions.
 
 * added GitHub Actions R-CMD-check.
+
+* added a Contributor Covenant Code of Conduct.
 
 # bgmfiles 0.1.0
 
