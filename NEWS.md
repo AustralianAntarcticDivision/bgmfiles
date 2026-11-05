@@ -1,8 +1,18 @@
+# bgmfiles (development version)
+
+* removed Travis and AppVeyor configuration; default branch is now `main`.
+
+* modernized tests to testthat 3rd edition.
+
+* added a pkgdown site with a Bootstrap 5 theme, deployed from GitHub Actions.
+
+* added GitHub Actions R-CMD-check.
+
 # bgmfiles 0.1.0
 
 * updated use of testthat, thanks Hadley Wickham. 
 
-* added static docs
+* added pkgdown site (deployed to gh-pages)
 
 # bgmfiles 0.0.6
 

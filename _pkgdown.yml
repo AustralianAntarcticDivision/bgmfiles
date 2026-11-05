@@ -1,0 +1,19 @@
+url: https://australianantarcticdivision.github.io/bgmfiles/
+
+template:
+  bootstrap: 5
+  bootswatch: flatly
+  light-switch: true
+  bslib:
+    base_font: {google: "Inter"}
+    heading_font: {google: "Inter"}
+    code_font: {google: "JetBrains Mono"}
+
+navbar:
+  structure:
+    left: [intro, reference, news]
+    right: [search, github, lightswitch]
+
+reference:
+  - title: Find example files
+    contents: bgmfiles

@@ -3,8 +3,11 @@
 ^data-raw$
 ^README\.Rmd$
 ^README-.*\.png$
-^\.travis\.yml$
 ^cran-comments\.md$
-^revdep$
 ^bgmfiles\.Rproj$
 ^\.github$
+^\.Rhistory$
+^\.RData$
+^\.Ruserdata$
+^docs$
+^_pkgdown\.yml$
