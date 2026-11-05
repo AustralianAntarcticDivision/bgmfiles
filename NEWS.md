@@ -10,6 +10,10 @@
 
 * added a Contributor Covenant Code of Conduct.
 
+* DESCRIPTION: single-quoted software name 'Atlantis', BGM acronym explained, copyright holder role and `Language: en-US` added; added `inst/WORDLIST` for the spell checker.
+
+* relicensed the package code under MIT (copyright holder: Department of Climate Change, Energy, the Environment and Water); the bundled `.bgm` data files keep their original terms, see the README.
+
 # bgmfiles 0.1.0
 
 * updated use of testthat, thanks Hadley Wickham. 

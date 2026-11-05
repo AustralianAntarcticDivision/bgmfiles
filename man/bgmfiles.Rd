@@ -17,10 +17,10 @@ character vector of file paths
 \description{
 Raw data files are maintained here: \url{https://github.com/AustralianAntarcticDivision/box-geometry-models.git}
 
-Return the full paths to all files in the extdata/bgm/ folder of this package.
+Return the full paths to all files in the \code{extdata/bgm/} folder of this package.
 }
 \details{
-This package contains a simple workflow to update from that source repo and install the raw files into extdata/ of the installed package.
+This package contains a simple workflow to update from that source repo and install the raw files into \code{extdata/} of the installed package.
 }
 \examples{
 ## obtain all example files installed
@@ -55,6 +55,7 @@ Authors:
 Other contributors:
 \itemize{
   \item Hadley Wickham [contributor]
+  \item Department of Climate Change, Energy, the Environment and Water (Australian Antarctic Division) [copyright holder]
 }
 
 }

@@ -1,14 +1,20 @@
 Package: bgmfiles
-Title: Example BGM Files for the Atlantis Ecosystem Model
-Version: 0.1.0.9002
+Title: Example BGM Files for the 'Atlantis' Ecosystem Model
+Version: 0.1.0.9004
 Authors@R: c(
     person("Michael D.", "Sumner", email = "mdsumner@gmail.com", role = c("aut", "cre")),
-    person("Hadley", "Wickham", role = "ctb")
+    person("Hadley", "Wickham", role = "ctb"),
+    person("Department of Climate Change, Energy, the Environment and Water",
+           role = "cph", comment = "Australian Antarctic Division")
     )
-Description: A collection of box-geometry model (BGM) files for the Atlantis 
-    ecosystem model. Atlantis is a deterministic, biogeochemical, 
-    whole-of-ecosystem model (see <https://research.csiro.au/atlantis/> for more information).
-License: CC0
+Description: A collection of example box geometry model (BGM) files for the
+    'Atlantis' ecosystem model. 'Atlantis' is a deterministic,
+    biogeochemical, whole-of-ecosystem model (see
+    <https://research.csiro.au/atlantis/> for more information). A BGM file
+    describes the spatial boxes and the faces between them that 'Atlantis'
+    uses for its model domain. The package provides a single function to find
+    the installed files; the files are kept as originally supplied.
+License: MIT + file LICENSE
 Depends: R (>= 3.5.0)
 Suggests: testthat (>= 3.0.0)
 Config/testthat/edition: 3
@@ -16,4 +22,5 @@ BugReports: https://github.com/AustralianAntarcticDivision/bgmfiles/issues/
 URL: https://github.com/AustralianAntarcticDivision/bgmfiles/,
     https://australianantarcticdivision.github.io/bgmfiles/
 Encoding: UTF-8
+Language: en-US
 Config/roxygen2/version: 8.1.1

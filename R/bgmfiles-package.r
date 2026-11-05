@@ -2,13 +2,13 @@
 #'
 #' Raw data files are maintained here: \url{https://github.com/AustralianAntarcticDivision/box-geometry-models.git}
 #'
-#' This package contains a simple workflow to update from that source repo and install the raw files into extdata/ of the installed package.
+#' This package contains a simple workflow to update from that source repo and install the raw files into \code{extdata/} of the installed package.
 #' @name bgmfiles
 "_PACKAGE"
 
 #' BGM files
 #'
-#' Return the full paths to all files in the extdata/bgm/ folder of this package. 
+#' Return the full paths to all files in the \code{extdata/bgm/} folder of this package. 
 #'
 #' @param pattern optional pattern string to filter files returned, see \code{\link{list.files}} for details
 #'
