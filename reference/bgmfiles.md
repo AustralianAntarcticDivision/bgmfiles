@@ -3,7 +3,7 @@
 Raw data files are maintained here:
 <https://github.com/AustralianAntarcticDivision/box-geometry-models.git>
 
-Return the full paths to all files in the extdata/bgm/ folder of this
+Return the full paths to all files in the `extdata/bgm/` folder of this
 package.
 
 ## Usage
@@ -26,13 +26,15 @@ character vector of file paths
 ## Details
 
 This package contains a simple workflow to update from that source repo
-and install the raw files into extdata/ of the installed package.
+and install the raw files into `extdata/` of the installed package.
 
 ## See also
 
 Useful links:
 
 - <https://github.com/AustralianAntarcticDivision/bgmfiles/>
+
+- <https://australianantarcticdivision.github.io/bgmfiles/>
 
 - Report bugs at
   <https://github.com/AustralianAntarcticDivision/bgmfiles/issues/>
@@ -48,6 +50,9 @@ Authors:
 Other contributors:
 
 - Hadley Wickham \[contributor\]
+
+- Department of Climate Change, Energy, the Environment and Water
+  (Australian Antarctic Division) \[copyright holder\]
 
 ## Examples
 

@@ -5,12 +5,23 @@
 - removed Travis and AppVeyor configuration; default branch is now
   `main`.
 
-- modernized tests to testthat 3rd edition.
+- modernized tests to testthat 3rd edition, with extra checks on the
+  installed file set and BGM keywords.
 
 - added a pkgdown site with a Bootstrap 5 theme, deployed from GitHub
   Actions.
 
 - added GitHub Actions R-CMD-check.
+
+- added a Contributor Covenant Code of Conduct.
+
+- DESCRIPTION: single-quoted software name ‘Atlantis’, BGM acronym
+  explained, copyright holder role and `Language: en-US` added; added
+  `inst/WORDLIST` for the spell checker.
+
+- relicensed the package code under MIT (copyright holder: Department of
+  Climate Change, Energy, the Environment and Water); the bundled `.bgm`
+  data files keep their original terms, see the README.
 
 ## bgmfiles 0.1.0
 

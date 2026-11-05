@@ -86,3 +86,31 @@ If you would like to contribute example BGM files or to the package:
   <https://github.com/AustralianAntarcticDivision/bgmfiles/issues>
 
 or just get in touch directly via email.
+
+## License and data
+
+The code in this package is released under the MIT license; the
+copyright holder is the Department of Climate Change, Energy, the
+Environment and Water (see `LICENSE`).
+
+The `.bgm` files are not covered by that license. They are example files
+that were supplied to this project by various people and are included
+**as originally supplied**, without modification. They remain subject to
+whatever terms applied to them originally, which are not always known to
+us, and the Department makes no claim of copyright over them. If you are
+the owner of a file and have concerns about its inclusion, please open
+an issue. Earlier versions of this package were released under CC0.
+
+As noted above, these files are not an official source of BGM for use in
+Atlantis, and they are provided without warranty. Some files contain
+quirks (for example in their projection strings or face counts) that we
+have deliberately left in place; see the
+[issues](https://github.com/AustralianAntarcticDivision/bgmfiles/issues)
+for details.
+
+## Code of Conduct
+
+Please note that the bgmfiles project is released with a [Contributor
+Code of
+Conduct](https://australianantarcticdivision.github.io/bgmfiles/CODE_OF_CONDUCT.html).
+By contributing to this project, you agree to abide by its terms.
