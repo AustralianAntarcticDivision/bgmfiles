@@ -4,7 +4,6 @@
 ^README\.Rmd$
 ^README-.*\.png$
 ^\.travis\.yml$
-^appveyor\.yml$
 ^cran-comments\.md$
 ^revdep$
 ^bgmfiles\.Rproj$
